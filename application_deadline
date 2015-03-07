@@ -1,0 +1,5 @@
+<?php echo get_post_meta( $post->ID, '_application_deadline', true ); ?>
+            	<?php the_terms( $post->ID, '_application_deadline', '', ' / ' ); ?>
+            	<?php the_terms( $post->ID, 'application_deadline', '', ' / ' ); ?>
+            	<?php the_terms( $post->ID, 'job_deadline', '', ' / ' ); ?>
+            	<?php the_terms( $post->ID, '_job_deadline', '', ' / ' ); ?>
